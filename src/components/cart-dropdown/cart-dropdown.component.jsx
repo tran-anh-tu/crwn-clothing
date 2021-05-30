@@ -8,7 +8,7 @@ import {withRouter} from 'react-router-dom'
 
 import './cart-dropdown.styles.scss'
 
-const CartDropdown = ({cartItems}) => (
+const CartDropdown = ({cartItems, history}) => (
   <div className='cart-dropdown'>
     <div className='cart-items'>
       {
